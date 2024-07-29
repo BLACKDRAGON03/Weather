@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather</title>
+
+        <link rel="stylesheet" href="./styles.css" />
+        <script
+            src="https://kit.fontawesome.com/39fd4df332.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="container search">
+            <div class="input-wrapper">
+                <input
+                    type="text"
+                    id="city-name"
+                    placeholder="Enter city name"
+                    value="Bogra"
+                    spellcheck="false"
+                />
+                <button id="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="container main">
+            <div class="current-weather">
+                <h2 style="text-align: center; font-size: 2em">Loading...</h2>
+            </div>
+            <div class="future-weather"></div>
+        </div>
+        <video src="./vd/bg.mp4" autoplay muted loop></video>
+
+        <script defer src="script.js"></script>
+    </body>
+</html>
