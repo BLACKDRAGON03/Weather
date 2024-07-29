@@ -23,7 +23,7 @@ html {
 
 body {
     color: var(--clr-light);
-
+    background-color: #9accfe;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     user-select: none;
